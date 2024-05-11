@@ -8,7 +8,7 @@ const FirstSection = () => {
         <h1 className=" font-bold bg-gradient-to-b from-blue-950 to-blue-500 inline-block text-transparent bg-clip-text text-2xl">
           Relations and Function &#40;Mathematics&#41;
         </h1>
-        <ul className="mt-5 flex justify-center mr-72">
+        <ul className="mt-5 flex justify-center lg:mr-72 md:mr-0">
           <li className="list-none mx-2 my-2 text-gray-500 cursor-pointer hover:text-blue-950 font-semibold hover:underline decoration-blue-950 hover:underline-offset-8">
             Study
           </li>
@@ -25,7 +25,7 @@ const FirstSection = () => {
             Others
           </li>
         </ul>
-        <div className="h-60 w-2/6 bg-gradient-to-tr from-cyan-500 to-blue-800 ml-72 mt-6 rounded-3xl relative">
+        <div className="h-60 lg:w-2/6 md:w-full bg-gradient-to-tr from-cyan-500 to-blue-800 lg:ml-72 md:ml-0 mt-6 rounded-3xl relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -50,12 +50,12 @@ const FirstSection = () => {
             <path d="M15.932 7.757a.75.75 0 0 1 1.061 0 6 6 0 0 1 0 8.486.75.75 0 0 1-1.06-1.061 4.5 4.5 0 0 0 0-6.364.75.75 0 0 1 0-1.06Z" />
           </svg>
 
-          <p className="text-white text-xl font-semibold absolute top-2/4 right-1/3 bottom-1/2 right-1/4 left-1/3 ">
+          <p className="text-white text-xl font-semibold absolute top-2/4  bottom-1/2 right-1/4 lg:left-1/3 md:left-1/4 md:-z-10  ">
             9 &#32; &#43; &#32; 6 &#32; &#43; &#32; 7x &#32; &#45; &#32; 2x
             &#32; &#45; &#32;3
           </p>
         </div>
-        <div className=" cursor-pointer h-14 w-2/6 ml-72 mt-3 flex justify-evenly">
+        <div className=" cursor-pointer h-14 lg:w-2/6 md:w-full lg:ml-72 md:ml-0 mt-3 flex justify-evenly">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -96,9 +96,9 @@ const FirstSection = () => {
           </svg>
           <img src={fullScreen} alt="full-screen" className="w-6 h-6" />
         </div>
-        <div className="bottom-section flex justify-between items-center ">
-            <div className="bottom-left">
-        <img className="h-24 w-52 ml-0" src={symbol} alt="symbol" />
+        <div className="bottom-section flex justify-between items-center  ">
+            <div className="bottom-left md:-ml-3">
+        <img className="lg:h-24 md:h-28 lg:w-52 md:w-14 lg:ml-0 " src={symbol} alt="symbol" />
             </div>
         <div className="bottom-right flex">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="navy" className="w-6 h-6 ">
