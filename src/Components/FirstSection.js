@@ -25,7 +25,7 @@ const FirstSection = () => {
             Others
           </li>
         </ul>
-        <div className="h-60 lg:w-2/6 md:w-full bg-gradient-to-tr from-cyan-500 to-blue-800 lg:ml-72 md:ml-0 mt-6 rounded-3xl relative">
+        <div className="h-60 lg:w-2/6 md:w-full bg-gradient-to-tr from-cyan-500 to-blue-800 lg:ml-72 md:ml-0 mt-6 rounded-3xl relative -z-10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -50,7 +50,7 @@ const FirstSection = () => {
             <path d="M15.932 7.757a.75.75 0 0 1 1.061 0 6 6 0 0 1 0 8.486.75.75 0 0 1-1.06-1.061 4.5 4.5 0 0 0 0-6.364.75.75 0 0 1 0-1.06Z" />
           </svg>
 
-          <p className="text-white text-xl font-semibold absolute top-2/4  bottom-1/2 right-1/4 lg:left-1/3 md:left-1/4 md:-z-10  ">
+          <p className="text-white text-xl font-semibold absolute top-2/4  bottom-1/2 right-1/4 lg:left-1/3 md:left-1/4 ">
             9 &#32; &#43; &#32; 6 &#32; &#43; &#32; 7x &#32; &#45; &#32; 2x
             &#32; &#45; &#32;3
           </p>
